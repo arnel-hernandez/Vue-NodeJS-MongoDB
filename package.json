@@ -1,0 +1,21 @@
+{
+  "name": "vue-express-mongodb",
+  "version": "1.0.0",
+  "description": "Full Stack Vue Express App with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Arnel Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
